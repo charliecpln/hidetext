@@ -24,12 +24,13 @@ HideText, **txt** veya **jpg** dosyalarına **görünmez** ve **şifreli** şeki
 ## **Kurulum**
 
 ### 1. Gerekli Kütüphanelerin Yüklenmesi
+Programın içerisinde otomatik kurulum özelliği mevcuttur.  
 Bu projeyi çalıştırmak için aşağıdaki Python kütüphanelerinin kurulu olması gerekmektedir:  
 
 - Pillow
 - pycryptodome
 - stegano (JPG desteği için)
 
-Kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
+Kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz veya direkt programı çalıştırıp otomatik kurulum özelliğinden faydanabilirsiniz:  
 ```bash
-pip install pillow pycryptodome stegano
+pip install -r requirements.txt
